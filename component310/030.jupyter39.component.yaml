@@ -1,0 +1,31 @@
+apiVersion: core.oam.dev/v1alpha2
+kind: Component
+metadata:
+  name: davmaio-jupyter310
+spec:
+  workload:
+    apiVersion: core.oam.dev/v1alpha2
+    kind: ContainerizedWorkload
+    metadata:
+      name: davmaio-jupyter310
+    spec:
+      osType: linux
+      containers:
+      - name: davmaio-jupyter310
+        # securityContext:
+        #   runAsUser: 1001
+        image: davma/jupyter-tensorflow-pyodbc:3.10
+        imagePullPolicy: IfNotPresent
+        resources:
+          cpu:
+            required: 500m
+          memory:
+            required: 500Mi
+        ports:
+          - name: http
+            value: 8888
+            containerPort: 8888
+            type: TCP
+
+
+        
