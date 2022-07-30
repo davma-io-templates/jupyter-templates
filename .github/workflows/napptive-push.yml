@@ -7,11 +7,11 @@ jobs:
     strategy:
       matrix:
         include:
-          - base: '3.10'
+          - base: 'v3.10'
             tag: '310'
-          - base: '3.9'
+          - base: 'v3.9'
             tag: '39'
-          - base: '3.8'
+          - base: 'v3.8'
             tag: '38'
     steps:
       - uses: actions/checkout@v2

@@ -1,12 +1,17 @@
 # davma.io JUPYTER-TENSORFLOW
 
+![https://github.com/davma-io](https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg)
+
 This app will deploy a Jupyter instance with python 3.8, tensorflow and pyodbc 4.0.30 pre-installed
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
 
-> This application is for development only, it is strongly recommended not to use it in production environments.
+[![Update application to Napptive Playground](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml)
 
 Jupyter Notebook is a web-based interactive computing platform.
+
+> This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
+
 
 
 ## How to access to JUPYTER-TENSORFLOW
@@ -30,3 +35,12 @@ https://davmaio-jupyter-<active-namespace>.apps.playground.napptive.dev
 * https://jupyter.org/
 * https://docs.jupyter.org/en/latest/index.html
 * https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc
+
+</br>
+</br>
+</br>
+
+![https://github.com/davma-io](https://davma.io/wp-content/uploads/2022/05/davma.io6_-e1659187814635.png)
+</br>
+</br>
+</br>
