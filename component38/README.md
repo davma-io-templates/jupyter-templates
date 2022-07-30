@@ -14,7 +14,7 @@ Jupyter Notebook is a web-based interactive computing platform.
 Once the application has been deployed, open the public endpoint navigating through the web UI to select the application, selecting the Jupyter component, and clicking on the associated Endpoint. Alternatively with the CLI use:
 
 ```
-playground apps open davmaio-jupyter-tensorflow:<version>
+playground apps open davmaio-jupyter
 ```
 
 The davmaio-jupyter instance automatically gets a public URL. If the application is APP_OK, copy the ingress link in your browser. 

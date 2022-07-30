@@ -14,7 +14,7 @@ Jupyter Notebook is a web-based interactive computing platform.
 Once the application has been deployed, open the public endpoint navigating through the web UI to select the application, selecting the Jupyter component, and clicking on the associated Endpoint. Alternatively with the CLI use:
 
 ```
-playground apps open davmaio-jupyter-tensorflow:<version>
+playground apps open davmaio-jupyter
 ```
 
 The davmaio-jupyter instance automatically gets a public URL. If the application is APP_OK, copy the ingress link in your browser. 
@@ -30,3 +30,24 @@ https://davmaio-jupyter-<active-namespace>.apps.playground.napptive.dev
 * https://jupyter.org/
 * https://docs.jupyter.org/en/latest/index.html
 * https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc
+
+
+
+
+
+
+
+
+
+
+<!--    
+
+        playground login --patFile D:/Github/no-git/napptive-cli/test_pat.dat
+        kubectl --kubeconfig napptive-cli/napptive-kubeconfig create -f napptive-jupyter-tensorflow-pyodbc/component39/
+
+        playground catalog push davma-io/jupyter-tensorflow:v3.9 napptive-jupyter-tensorflow-pyodbc/component39/
+        playground catalog push davma-io/jupyter-tensorflow:v3.8 napptive-jupyter-tensorflow-pyodbc/component38/
+        playground catalog push davma-io/jupyter-tensorflow:v3.10 napptive-jupyter-tensorflow-pyodbc/component310/
+        playground catalog remove davma-io/jupyter:v1.
+        
+-->
