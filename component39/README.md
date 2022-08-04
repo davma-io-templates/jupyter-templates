@@ -8,6 +8,8 @@ This app will deploy a Jupyter instance with python 3.9, tensorflow and pyodbc 4
 
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml)
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/davma/jupyter-tensorflow-pyodbc)   
+
 Jupyter Notebook is a web-based interactive computing platform.
 
 > This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
