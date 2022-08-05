@@ -19,7 +19,7 @@ spec:
       traits:
         - type: napptive-ingress         
           properties:
-            name: davmaio-jupyterTF
+            name: davmaio-jupytertf
             port: 8888
             path: /
             rewritePath: /
