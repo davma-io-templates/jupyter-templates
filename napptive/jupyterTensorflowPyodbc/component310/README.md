@@ -1,5 +1,7 @@
 # davma.io JUPYTER-TENSORFLOW
 
+</br>
+
 <!-- ![https://github.com/davma-io](https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg) -->
 <img src="https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg" alt="drawing" width="600"/>
 

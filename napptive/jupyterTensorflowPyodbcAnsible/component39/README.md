@@ -1,5 +1,7 @@
 # davma.io JUPYTER-ANSIBLE
 
+</br>
+
 <!-- ![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png) -->
 <img src="https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png" alt="drawing" width="600"/>
 
