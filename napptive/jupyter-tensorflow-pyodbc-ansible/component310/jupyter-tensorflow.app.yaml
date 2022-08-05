@@ -1,0 +1,33 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: davmaio-jupyterA310
+  annotations:
+    version: 0.0.1
+    description: "Jupyter Notebook is a web-based interactive computing platform."
+spec:
+  components:
+    - name: davmaio-jupyterA310
+      type: webservice
+      properties:
+        image: davma/jupyter-ansible-tf:3.10
+        ports:
+          - port: 8888
+            expose: true
+        cpu: "1000m"
+        memory: "1000Mi"
+      traits:
+        - type: napptive-ingress         
+          properties:
+            name: davmaio-grafana
+            port: 8888
+            path: /
+            rewritePath: /
+        - type: scaler
+          properties:
+            replicas: 1
+  policies:
+    - name: davmaio-jupyterA39-health
+      type: health
+      properties:
+        probeInterval: 5

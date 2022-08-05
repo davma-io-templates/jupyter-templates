@@ -1,21 +1,21 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: davmaio-jupyter38
+  name: davmaio-jupyter310
   annotations:
     version: 0.0.1
     description: "Jupyter Notebook is a web-based interactive computing platform."
 spec:
   components:
-    - name: davmaio-jupyter38
+    - name: davmaio-jupyter310
       type: webservice
       properties:
-        image: davma/jupyter-tensorflow-pyodbc:3.8
+        image: davma/jupyter-tensorflow-pyodbc:3.10
         ports:
           - port: 8888
             expose: true
-        cpu: "500m"
-        memory: "500Mi"
+        cpu: "1000m"
+        memory: "1000Mi"
       traits:
         - type: napptive-ingress         
           properties:
@@ -27,7 +27,7 @@ spec:
           properties:
             replicas: 1
   policies:
-    - name: davmaio-jupyter38-health
+    - name: davmaio-jupyter39-health
       type: health
       properties:
         probeInterval: 5

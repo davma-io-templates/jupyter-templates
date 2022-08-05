@@ -8,7 +8,7 @@ This app will deploy a Jupyter instance with python 3.8, tensorflow and pyodbc 4
 
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/davma/jupyter-tensorflow-pyodbc)  
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc)  
 
 Jupyter Notebook is a web-based interactive computing platform.
 
@@ -27,7 +27,7 @@ playground apps open davmaio-jupyter
 The davmaio-jupyter instance automatically gets a public URL. If the application is APP_OK, copy the ingress link in your browser. 
 
 ```
-https://davmaio-jupyter-<active-namespace>.apps.playground.napptive.dev
+https://davmaio-jupyter38-<active-namespace>.apps.playground.napptive.dev
 ```
 
 - We need a token to log into the page. We can obtain the token checking the application logs:

@@ -1,0 +1,25 @@
+name: Update application to Napptive Playground
+on: [push]
+jobs:
+  deploy:
+    name: Upload new version to the catalog
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - base: 'v3.10'
+            tag: '310'
+          - base: 'v3.9'
+            tag: '39'
+          - base: 'v3.8'
+            tag: '38'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: napptive-actions/catalog-push-action@v3.0.1
+        env:
+          PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
+        with:
+          applicationPath: .napptive/jupyter-tensorflow-pyodbc/component${{ matrix.tag }}/
+          namespace: "davma-io"
+          applicationName: "jupyter-tensorflow"
+          tag: "${{ matrix.base }}"

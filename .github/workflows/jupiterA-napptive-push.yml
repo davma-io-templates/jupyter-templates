@@ -19,7 +19,7 @@ jobs:
         env:
           PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
-          applicationPath: ./component${{ matrix.tag }}/
+          applicationPath: .napptive/jupyter-tensorflow-pyodbc-ansible/component${{ matrix.tag }}/
           namespace: "davma-io"
-          applicationName: "jupyter-tensorflow"
+          applicationName: "jupyter-Ansible"
           tag: "${{ matrix.base }}"
