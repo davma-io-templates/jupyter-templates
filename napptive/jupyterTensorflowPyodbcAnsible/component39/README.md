@@ -1,6 +1,7 @@
 # davma.io JUPYTER-ANSIBLE
 
-![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png)
+<!-- ![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png) -->
+<img src="https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png" alt="drawing" width="600"/>
 
 This app will deploy a Jupyter instance with python 3.9, ANSIBLE, tensorflow and pyodbc 4.0.30 pre-installed
 

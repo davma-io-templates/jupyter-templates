@@ -1,6 +1,7 @@
 # davma.io JUPYTER-TENSORFLOW
 
-![https://github.com/davma-io](https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg)
+<!-- ![https://github.com/davma-io](https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg) -->
+<img src="https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg" alt="drawing" width="600"/>
 
 This app will deploy a Jupyter instance with python 3.9, tensorflow and pyodbc 4.0.30 pre-installed
 
