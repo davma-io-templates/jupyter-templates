@@ -6,7 +6,7 @@ This app will deploy a Jupyter instance with python 3.10, tensorflow and pyodbc 
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
 
-[![Update application to Napptive Playground](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml)
+[![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterTF-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterTF-napptive-push.yml)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc)    
 

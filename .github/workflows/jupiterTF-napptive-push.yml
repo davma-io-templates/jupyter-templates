@@ -19,7 +19,7 @@ jobs:
         env:
           PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
-          applicationPath: .napptive/jupyter-tensorflow-pyodbc/component${{ matrix.tag }}/
+          applicationPath: .napptive/jupyterTensorflowPyodbc/component${{ matrix.tag }}/
           namespace: "davma-io"
           applicationName: "jupyter-tensorflow"
           tag: "${{ matrix.base }}"

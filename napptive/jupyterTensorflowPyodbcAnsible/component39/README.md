@@ -2,11 +2,11 @@
 
 ![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png)
 
-This app will deploy a Jupyter instance with python 3.8, ANSIBLE, tensorflow and pyodbc 4.0.30 pre-installed
+This app will deploy a Jupyter instance with python 3.9, ANSIBLE, tensorflow and pyodbc 4.0.30 pre-installed
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-ansible/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-ansible/actions)
 
-<!-- [![Update application to Napptive Playground](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/napptive-jupyter-tensorflow-pyodbc/actions/workflows/napptive-push.yml) -->
+[![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml)
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ansible-tf?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/davma/jupyter-tensorflow-pyodbc)  
 
@@ -27,7 +27,7 @@ playground apps open davmaio-jupyter
 The davmaio-jupyterA instance automatically gets a public URL. If the application is APP_OK, copy the ingress link in your browser. 
 
 ```
-https://davmaio-jupyterA38-<active-namespace>.apps.playground.napptive.dev
+https://davmaio-jupyterA39-<active-namespace>.apps.playground.napptive.dev
 ```
 
 - We need a token to log into the page. We can obtain the token checking the application logs:
