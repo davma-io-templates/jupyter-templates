@@ -1,23 +1,28 @@
-# davma.io JUPYTER-ANSIBLE
+# JUPYTER-ANSIBLE
 
 </br>
 
 <!-- ![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png) -->
-<img src="https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png" alt="drawing" width="600"/>
+<img src="https://www.padok.fr/hubfs/Imported_Blog_Media/ansible_code.webp" alt="drawing" width="500"/> 
 
-This app will deploy a Jupyter instance with python 3.9, ANSIBLE, tensorflow and pyodbc 4.0.30 pre-installed
+</br> 
+
+__Jupyter Notebook is a web-based interactive computing platform.__
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-ansible/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-ansible/actions)
-
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ansible-tf?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/davma/jupyter-tensorflow-pyodbc) 
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ansible-tf?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/davma/jupyter-tensorflow-pyodbc)  
+## This app will deploy a Jupyter instance with python 3.9
 
-Jupyter Notebook is a web-based interactive computing platform.
+Pre-installed components
+- __ANSIBLE__
+- tensor flow
+- pyodbc 4.0.30
 
-> This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
+Info Latest Image Update
 
-
+- Add HashiCorp Vault API client for Python
 
 ## How to access to JUPYTER-ANSIBLE
 
