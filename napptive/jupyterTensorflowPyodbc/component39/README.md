@@ -3,19 +3,23 @@
 </br>
 
 <!-- ![https://github.com/davma-io](https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg) -->
-<img src="https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg" alt="drawing" width="600"/>
+<img src="https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg" alt="drawing" width="450"/> 
 
-This app will deploy a Jupyter instance with python 3.9, tensorflow and pyodbc 4.0.30 pre-installed
+__Jupyter Notebook is a web-based interactive computing platform.__
 
 [![Build and push images](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-tensorflow-pyodbc/actions/workflows/docker-image.yml)
-
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterTF-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterTF-napptive-push.yml)
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc)  
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-tensorflow-pyodbc?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-tensorflow-pyodbc)   
+## This app will deploy a Jupyter instance with python 3.9
 
-Jupyter Notebook is a web-based interactive computing platform.
+Pre-installed components
 
-> This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
+- tensor flow
+- pyodbc 4.0.30
+
+
+__Important__ - This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
 
 
 ## How to access to JUPYTER-TENSORFLOW

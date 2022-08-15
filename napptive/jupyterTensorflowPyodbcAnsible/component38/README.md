@@ -22,7 +22,10 @@ Pre-installed components
 
 Info Latest Image Update
 
-- Add HashiCorp Vault API client for Python
+- Add HashiCorp Vault API client for Python 
+
+__Important__ - This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
+
 
 ## How to access to JUPYTER-ANSIBLE
 
