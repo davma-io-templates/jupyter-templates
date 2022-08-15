@@ -1,5 +1,7 @@
 # JUPYTER-ANSIBLE
 
+Deployment in the catalog and configuration and in some cases the container image is maintained and updated by [davma.io](mailto:contact@davma.io)
+
 </br>
 
 <!-- ![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png) -->

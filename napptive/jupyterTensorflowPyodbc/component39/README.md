@@ -1,9 +1,12 @@
-# davma.io JUPYTER-TENSORFLOW
+# JUPYTER-TENSORFLOW
+
+Deployment in the catalog and configuration and in some cases the container image is maintained and updated by [davma.io](mailto:contact@davma.io)
 
 </br>
 
-<!-- ![https://github.com/davma-io](https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg) -->
-<img src="https://www.gstatic.com/devrel-devsite/prod/v0e5fe81d770a1c83a74ae94cff5f78c2b690ac595b30fc2439f12b56fdf9fe78/tensorflow/images/lockup.svg" alt="drawing" width="450"/> 
+<img src="https://bizflyportal.mediacdn.vn/bizflyportal/1453/2428/2021/05/13/21/21/ten16208940807508.jpg" alt="drawing" width="500"/>
+
+</br>
 
 __Jupyter Notebook is a web-based interactive computing platform.__
 
@@ -15,7 +18,7 @@ __Jupyter Notebook is a web-based interactive computing platform.__
 
 Pre-installed components
 
-- tensor flow
+- __TensorFlow__
 - pyodbc 4.0.30
 
 
