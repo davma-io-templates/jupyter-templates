@@ -51,7 +51,7 @@ playground apps open davmaio-jupyter
 The davmaio-jupyterA instance automatically gets a public URL. If the application is APP_OK, copy the ingress link in your browser. 
 
 ```
-https://davmaio-jupyterA310-<active-namespace>.apps.playground.napptive.dev
+https://davmaio-jupyterult-<active-namespace>.apps.playground.napptive.dev
 ```
 
 - We need a token to log into the page. We can obtain the token checking the application logs:
