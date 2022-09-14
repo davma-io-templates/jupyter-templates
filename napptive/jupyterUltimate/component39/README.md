@@ -1,21 +1,21 @@
-# JUPYTER-ANSIBLE
+# JUPYTER-Ultimate
 
 Deployment in the catalog and configuration and in some cases the container image is maintained and updated by [davma.io](mailto:contact@davma.io)
 
 </br>
 
 <!-- ![https://github.com/davma-io](https://conocimientolibre.mx/wp-content/uploads/2019/11/ansible-glue-tools.png) -->
-<img src="https://www.padok.fr/hubfs/Imported_Blog_Media/ansible_code.webp" alt="drawing" width="500"/> 
+<img src="https://cdn3.f-cdn.com//files/download/93600166/Kubernetes%2C%20Ansible%2C%20Terraform%2C%20AWS_1.png?width=780&height=234&fit=crop" alt="drawing" width="600"/> 
 
 </br> 
 
 __Jupyter Notebook is a web-based interactive computing platform.__
 
-[![Build and push images](https://github.com/davma-io-images/jupyter-ansible/actions/workflows/docker-image.yml/badge.svg)](https://github.com/davma-io-images/jupyter-ansible/actions)
+[![Build jupyter-ultimate](https://github.com/davma-io-images/jupyterlab/actions/workflows/jupyter-ultimate.yml/badge.svg)](https://github.com/davma-io-images/jupyterlab/actions/workflows/jupyter-ultimate.yml)
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ansible-tf?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/davma/jupyter-tensorflow-pyodbc) 
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ultimate?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-ultimate)
 
-## This app will deploy a Jupyter instance with python 3.8
+# This app will deploy a Jupyter instance with python 3.9
 
 Pre-installed components
 - __ANSIBLE__
@@ -40,7 +40,7 @@ playground apps open davmaio-jupyter
 The davmaio-jupyterA instance automatically gets a public URL. If the application is APP_OK, copy the ingress link in your browser. 
 
 ```
-https://davmaio-jupyterA38-<active-namespace>.apps.playground.napptive.dev
+https://davmaio-jupyterA39-<active-namespace>.apps.playground.napptive.dev
 ```
 
 - We need a token to log into the page. We can obtain the token checking the application logs:
@@ -49,6 +49,7 @@ https://davmaio-jupyterA38-<active-namespace>.apps.playground.napptive.dev
 ## References
 * https://jupyter.org/
 * https://docs.ansible.com/
+* https://www.terraform.io/intro
 * https://docs.jupyter.org/en/latest/index.html
 * https://hub.docker.com/r/davma/jupyter-ansible-tf
 

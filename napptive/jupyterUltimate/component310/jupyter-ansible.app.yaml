@@ -10,7 +10,7 @@ spec:
     - name: davmaio-jupyteran310
       type: webservice
       properties:
-        image: davma/jupyter-ansible-tf:3.10
+        image: davma/jupyter-ultimate:3.10
         ports:
           - port: 8888
             expose: true
