@@ -16,6 +16,6 @@ license: "GPL-3.0 license"
 url: "https://jupyter.org/"
 doc: "https://docs.jupyter.org/en/latest/index.html"
 logo:
-  - src: "https://cdn.dribbble.com/users/13574/screenshots/9711275/logo-devops.png"
-    type: "image/png"
+  - src: "https://storage.googleapis.com/artifacts.playground.napptive.dev/logos/jupyter.svg"
+    type: "image/svg"
     size: "44x51"

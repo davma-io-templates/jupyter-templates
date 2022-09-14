@@ -40,7 +40,7 @@ Python Components
 __Important__ - This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
 
 
-## How to access to JUPYTER-ANSIBLE
+## How to access to JUPYTER-Ultimate
 
 Once the application has been deployed, open the public endpoint navigating through the web UI to select the application, selecting the Jupyter component, and clicking on the associated Endpoint. Alternatively with the CLI use:
 
