@@ -15,16 +15,27 @@ __Jupyter Notebook is a web-based interactive computing platform.__
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ultimate?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-ultimate)
 
-# This app will deploy a Jupyter instance with python 3.10
+## This app will deploy a Jupyter instance with python 3.10
 
-Pre-installed components
-- __ANSIBLE__
-- tensor flow
-- pyodbc 4.0.30
+## 1. Pre-installed components
 
-Info Latest Image Update
+This image is a modification of the official [Jupyter Notebook Deep Learning Stack](https://hub.docker.com/r/jupyter/tensorflow-notebook) image. 
 
-- Add HashiCorp Vault API client for Python 
+The following components have been added:
+
+CLI Components
+- Azure CLI
+- AWS CLI
+- Napptive CLI 
+
+Infrastructure Components
+- kubectl
+- Terraform
+- Ansible 
+
+Python Components 
+- Vault API client
+- Pyodbc
 
 __Important__ - This application is for development only, it is strongly recommended not to use it in production environments. It is not deployed with data persistence. For more info or help [contact](mailto:contact@davma.io)
 
