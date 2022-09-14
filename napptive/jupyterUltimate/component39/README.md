@@ -15,7 +15,7 @@ __Jupyter Notebook is a web-based interactive computing platform.__
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml)
 [![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ultimate?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-ultimate)
 
-## This app will deploy a Jupyter instance with python 3.9
+### This app will deploy a Jupyter instance with python 3.9 
 
 ## 1. Pre-installed components
 
