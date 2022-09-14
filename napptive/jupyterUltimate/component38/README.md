@@ -9,13 +9,13 @@ Deployment in the catalog and configuration and in some cases the container imag
 
 </br> 
 
+## This app will deploy a Jupyter instance with python 3.8
+
 __Jupyter Notebook is a web-based interactive computing platform.__
 
 [![Build jupyter-ultimate](https://github.com/davma-io-images/jupyterlab/actions/workflows/jupyter-ultimate.yml/badge.svg)](https://github.com/davma-io-images/jupyterlab/actions/workflows/jupyter-ultimate.yml)
 [![Update application to Napptive Playground](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml/badge.svg)](https://github.com/davma-io-templates/jupyter-templates/actions/workflows/jupiterA-napptive-push.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ultimate?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-ultimate)
-
-## This app will deploy a Jupyter instance with python 3.8 
+[![Docker Pulls](https://img.shields.io/docker/pulls/davma/jupyter-ultimate?logo=docker&logoColor=white)](https://hub.docker.com/r/davma/jupyter-ultimate) 
 
 ## Pre-installed components
 

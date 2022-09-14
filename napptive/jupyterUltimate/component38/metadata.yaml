@@ -1,11 +1,13 @@
 apiVersion: core.napptive.com/v1alpha1
 kind: ApplicationMetadata
-name: "JUPYTER-ANSIBLE"
+name: "JUPYTER-Ultimate"
 version: 3.8
-description: Jupyter Notebook is a web-based interactive computing platform. This image has been modified and has several extra components for DevOps tasks..
+description: Jupyter Notebook is a web-based interactive computing platform. This image has been modified and has several extra components for DevOps tasks.
 keywords:
   - "Jupyter"
   - "Ansible"
+  - "Terraform"
+  - "Napptive CLI"
   - "automation IT"
   - "python"
   - "davma"
@@ -14,6 +16,6 @@ license: "GPL-3.0 license"
 url: "https://jupyter.org/"
 doc: "https://docs.jupyter.org/en/latest/index.html"
 logo:
-  - src: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/1200px-Ansible_logo.svg.png"
-    type: "image/png"
+  - src: "https://www.logolynx.com/images/logolynx/46/46f0ebc8104aa3c17c9616d8b42cbb4f.jpeg"
+    type: "image/jpeg"
     size: "500x500"
