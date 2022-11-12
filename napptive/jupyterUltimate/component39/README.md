@@ -33,7 +33,8 @@ Infrastructure Components
 - Terraform
 - Ansible 
 
-Python Components 
+Python Components
+- TensorFlow
 - Vault API client
 - Pyodbc
 

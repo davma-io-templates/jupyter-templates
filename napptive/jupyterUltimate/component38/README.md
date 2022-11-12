@@ -34,6 +34,7 @@ Infrastructure Components
 - Ansible 
 
 Python Components 
+- TensorFlow
 - Vault API client
 - Pyodbc
 
